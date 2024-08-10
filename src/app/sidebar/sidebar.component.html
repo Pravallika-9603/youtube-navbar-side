@@ -1,0 +1,28 @@
+<nav class="sidebar" [class.collapsed]="isCollapsed">
+    <ul>
+      
+      <li><a routerLink="/home" routerLinkActive="active">
+        <ul>
+          <li><i class="fas fa-home"></i></li>
+          <span>Home</span>
+        </ul>
+      </a></li>
+
+      <li><a routerLink="/shorts" routerLinkActive="active"><ul>
+        <li><i class="fas fa-play-circle"></i></li>
+        <span>shorts</span>
+      </ul></a></li>
+
+      <li><a routerLink="/subscriptions" routerLinkActive="active"><ul>
+        <li><i class="fas fa-book"></i> </li>
+        <span>library</span>
+      </ul></a></li>
+      
+      <li><a routerLink="/library" routerLinkActive="active"><ul>
+        <li><i class="fas fa-bell"></i></li>
+        <span>subscriptions</span>
+      </ul></a></li>
+      
+      
+    </ul>
+  </nav>
