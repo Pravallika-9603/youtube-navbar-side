@@ -1,6 +1,10 @@
 <nav class="sidebar" [class.collapsed]="isCollapsed">
     <ul>
-      
+      <li>
+        <button class="menu-button" (click)="toggleSidebar()">
+          <i class="fas fa-bars"></i>
+        </button>
+      </li>
       <li><a routerLink="/home" routerLinkActive="active">
         <ul>
           <li><i class="fas fa-home"></i></li>
