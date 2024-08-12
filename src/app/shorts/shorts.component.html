@@ -1,1 +1,10 @@
-<p>shorts works!</p>
+<div class="shorts-container">
+    <div class="short-video" *ngFor="let short of shorts">
+      <video width="100" height="100" controls>
+        <source src="assets/https://youtube.com/shorts/TSAhWU-wyss?si=a_tr8TO1zONO8CWo" type="video/mp4">
+      </video>
+        <div class="short-info">
+        <p>{{ short.title }}</p>
+      </div>
+    </div>
+  </div>

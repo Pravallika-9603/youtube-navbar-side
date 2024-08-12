@@ -1,0 +1,23 @@
+.channel-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .channel-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .channel-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .channel-item span {
+    font-size: 16px;
+    font-weight: 500;
+  }

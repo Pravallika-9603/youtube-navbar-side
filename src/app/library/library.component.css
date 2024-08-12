@@ -1,0 +1,21 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav li {
+    padding: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #606060;
+    font-weight: 500;
+  }
+  
+  nav a.active {
+    color: #ff0000;
+    border-bottom: 2px solid #ff0000;
+  }
